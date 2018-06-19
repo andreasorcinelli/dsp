@@ -20,7 +20,30 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* pwd  show current working directory path
+* mkdir <directory> creating a directory
+* rmdir <directory> deleting a directory
+* touch <filename> creating a file using touch command
+* rm <file> deleting a file
+* mv <old file name> <new file name> renaming a file
+* ls -a listing hidden files
+* cp <source> <destination> copying a file from one directory to another
+* :q! - discard all changes, since the last save, and exit in VI text editor
+* :w - save file but don't exit in VI text editor
+* :wq - again, save and exit in VI text editor
+* git status - show the working tree status
+* git add <filename> - add file contents to the index
+* git commit - record changes to the repo
+* git push - update remote refs along with associated objects
+* git clone - clone a repo into a new directory
+* cd - go to home directory
+* cd / - go to the root directory
+* cd .. - go tp parent directory
+* man <command> look up the manual page for a particular command
+* clear - clear the terminal screen
+* > save program output to a file instead of to the screen (technically an operator but seems handy)
+* >> append new data to a file (also technically an operator)
 
 ---
 
@@ -35,7 +58,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+* ls list the contents of a directory
+* ls -a list the contents of a directory including hidden files
+* ls -l list the contents of a directory in long format
+* ls -lh list the contents of a directory in long format with unit suffixes to reduce number of digits
+* ls -lah list directory contents and include entires whose names begin with a dot 
+* ls -t list directory contents and sort by time modified (most recently modified first) before sorting the operands by lexicographical order.
+* ls -Glp list directory contents and enable colorized output, list in long format, write a slash after each file name if that file is a directoryE
 
 ---
 
@@ -43,7 +73,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+* ls -1 displays each entry on a line
+* ls -p displays directories with /
+* ls -c displays files by time stamp
+* ls -t displays newest files first based on timestamp 
+* ls -d displays only directories
 
 ---
 
@@ -51,7 +86,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > According to its manual page, the xargs command,  "constructs argument list(s) and execute utility” In other words, the xargs command is used to build an execution pipeline from standard input. Xargs is often used with the find command, for example, to search for files or directories and then operate on the results. If I wanted to find and delete all files that were last modified before a certain date, I could use xargs and rm to do this. E
 
  
 
