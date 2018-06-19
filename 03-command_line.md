@@ -24,7 +24,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 #### A1.   Cheat Sheet of Commands
  
 * **pwd**  show current working directory path
-* **mkdir <directory>** create a directory
+* **mkdir [directory]** create a directory
 * **rmdir <directory>** delete a directory
 * **touch <filename>** create a file using touch command
 * **rm <file>** delete a file
