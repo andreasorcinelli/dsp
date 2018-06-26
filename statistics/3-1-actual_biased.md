@@ -60,7 +60,7 @@ biased.Mean()
 #Output
 2.4036791006642821
 ```
-![alt text](https://github.com/andreasorcinelli/dsp/blob/master/img/pmf_biased_actual_.png "biased vs. actual")
+![alt text](https://github.com/andreasorcinelli/dsp/blob/master/img/pmf_biased_actual.png "biased vs. actual")
 
 ### The Solution:
 
