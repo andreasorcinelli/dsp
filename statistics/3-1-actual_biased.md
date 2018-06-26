@@ -16,6 +16,7 @@ Plot the actual and biased distributions, and compute their
 means.
 
 ### How I solved it:
+
 ```python
 from __future__ import print_function, division
 %matplotlib inline
@@ -61,11 +62,11 @@ biased.Mean()
 ```
 ![alt text](https://github.com/andreasorcinelli/dsp/blob/master/img/pmf_biased_actual_.png "biased vs. actual")
 
-### The Solution
+### The Solution:
 
 The PMF or probability mass function for the actual distribution shows a peak
 or its mode at 0 children. However, the PMF for the biased distribution shows
 a peak or its mode at 2 children. Moreover, the mean of the actual distribution
 is about 1.02 whereas the mean of the biased distribution is about 2.40,
 reflecting a difference of about 1.38 children between the two distributions. 
-E
+
