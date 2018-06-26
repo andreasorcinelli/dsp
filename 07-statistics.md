@@ -92,7 +92,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 Pr(identical twins & twin brother)    
 = Pr(identical twins) *  Pr(both boys | identical twin)  
-= 1/300 * 1/2  2    
+= 1/300 * 1/2      
 
 Pr(fraternal twins & twin brother)     
 = Pr(fraternal twins) *  Pr(both boys | fraternal twins)  
@@ -100,7 +100,7 @@ Pr(fraternal twins & twin brother)
 
 Pr(identical twins | twin brother)   
 = Pr(identical twins & twin brother) / Pr(twin brother)  
-= (1/300 * 1/2) / ((1/300 * 1/2) + (1/25 * 1/4))    
+= 1/300 * 1/2 / (1/300 * 1/2) + (1/125 * 1/4)      
 = 5/11  
 = 0.45   
 
